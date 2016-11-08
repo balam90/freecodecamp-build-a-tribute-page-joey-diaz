@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: silver;
+  text-shadow: 2px 2px 5px rgba(14, 14, 14, 1);
+}
+
+#background-gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d8e0de+0,aebfbc+22,99afab+33,8ea6a2+50,829d98+67,4e5c5a+82,0e0e0e+100;Grey+3D */
+  background: rgb(216,224,222); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(216,224,222,1) 0%, rgba(174,191,188,1) 22%, rgba(153,175,171,1) 33%, rgba(142,166,162,1) 50%, rgba(130,157,152,1) 67%, rgba(78,92,90,1) 82%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(216,224,222,1) 0%,rgba(174,191,188,1) 22%,rgba(153,175,171,1) 33%,rgba(142,166,162,1) 50%,rgba(130,157,152,1) 67%,rgba(78,92,90,1) 82%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(216,224,222,1) 0%,rgba(174,191,188,1) 22%,rgba(153,175,171,1) 33%,rgba(142,166,162,1) 50%,rgba(130,157,152,1) 67%,rgba(78,92,90,1) 82%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+
+.jumbotron {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+  background: rgb(181,189,200); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+  box-shadow: 0 4px 8px 0 rgba(14, 14, 14, 0.7), 0 6px 20px 0 rgba(14, 14, 14, 0.69);
+}
+
+img {
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(14, 14, 14, 0.7), 0 6px 20px 0 rgba(14, 14, 14, 0.69);
+}
+
+.img-margin {
+  margin-top: 20px;
+}
+
+.well {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+  background: rgb(238,238,238); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+  box-shadow: 0 4px 8px 0 rgba(14, 14, 14, 0.7), 0 6px 20px 0 rgba(14, 14, 14, 0.69);
+}
+
+.text-well {
+  color: black;
+  text-shadow: none;
+  height: 500px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: auto;
+}
+
+.page-header {
+  border-color: black;
+}
+
+.credits {
+  margin-top: 30px;
+}
+
+.media-poster1 {
+  height: 170px;
+  margin-top: 20px;
+}
+
+.media-poster2 {
+  margin-top: 20px;
+  width: 125px;
+  height: 125px;
+}
+
+.media-title {
+  text-align: center;
+}
+
+.media-owner {
+  text-align: center;
+}
+
+a:link {
+  color: silver;
+}
+
+a:visited {
+  color: silver;
+}
+
+a:hover {
+  color: white;
+}
+
+.link-icon {
+  margin-right: 15px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+a#author:link {
+  color: #3366BB;
+}
+
+a#author:visited {
+  color: #3366BB;
+}
+
+a#author:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* For width 768px and larger: */
+@media only screen and (min-width: 768px) {
+  img {
+    height: 250px;
+  }
+  
+  .img-margin {
+    width: 90%;
+  }
+  
+  .text-well {
+    margin: auto;
+    height: 520px;
+  }
+  
+  .media-poster1 {
+    height: 230px;
+  }
+  
+  .media-poster2 {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* For width 992px and larger: */
+@media only screen and (min-width: 992px) {
+  img {
+    height: 350px;
+  }
+  
+  .img-margin {
+    width: 100%;
+  }
+  
+  .text-well {
+    margin: auto;
+    height: 720px;
+  }
+}
+
+/* For width 1200px and larger: */
+@media only screen and (min-width: 1200px) {
+  img {
+    height: 400px;
+  }
+  
+  .img-margin {
+    width: 90%;
+  }
+  
+  .text-well {
+    margin: auto;
+    height: 820px;
+  }
+}
